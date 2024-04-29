@@ -10,8 +10,7 @@ image_folder_path = sys.argv[2]
 model = tf.keras.models.load_model(model_path)
 
 
-def preprocess_image(image_path, target_size=(128, 128)):
-    """이미지 파일을 불러와 전처리하는 함수"""
+def preprocess_image(image_path, target_size=(128, 128)):  # 이미지 파일을 불러와 전처리하는 함수
     img = image.load_img(image_path, target_size=target_size)
     img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)  # 모델 예측을 위해 차원 확장
@@ -19,8 +18,7 @@ def preprocess_image(image_path, target_size=(128, 128)):
     return img_array
 
 
-def load_and_preprocess_from_directory(directory_path, target_size=(128, 128)):
-    """지정된 디렉토리 내의 모든 이미지를 불러와 전처리하는 함수"""
+def load_and_preprocess_from_directory(directory_path, target_size=(128, 128)):  # 지정된 디렉토리 내의 모든 이미지를 불러와 전처리하는 함수
     processed_images = []
     for file_name in os.listdir(directory_path):
         file_path = os.path.join(directory_path, file_name)
@@ -38,7 +36,7 @@ output_layer = model.layers[-1]  # 모델의 마지막 층 (출력층)을 가져
 num_classes = output_layer.units  # 출력층의 유닛 수를 가져옴, 이는 클래스의 수와 동일
 
 class_labels = []
-# 클래스 라벨 정의 (예: num_classes 개의 클래스)
+# 클래스 라벨 정의
 class_labels.append('바른 자세')
 class_labels.append('팔꿈치가 어깨보다 안쪽에 위치하지 않음')
 class_labels.append('몸통과 엉덩이의 정렬 유지 필요')
