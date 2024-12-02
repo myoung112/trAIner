@@ -1,0 +1,55 @@
+.ExerciseList{
+    color: #00c497;
+}
+
+.exercisetitle{
+    position: absolute;
+    margin-top: 7vh;
+    color: #00C497;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+.big-box-ex {
+    width: 65vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(249, 249, 249, 0.6);
+    max-height: 72vh; 
+    overflow-y: auto;
+    margin-left: 20vw;
+    margin-top: -53vh;
+  }
+
+  .listname-ex{
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4%;
+    display: grid;
+    grid-template-columns: 15% 15% 25% 33% 10%;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    
+  }
+  
+  .small-box-ex {
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4vw;
+    margin-bottom: 5vh;
+    display: grid;
+  grid-template-columns: 13% 15% 20% 42% 10%; 
+  
+  }
+
+  #sortCriteriaLabel{
+    position: absolute;
+    margin-left: 38vw;
+    margin-top: -62vh;  
+}
+
+.ex-link {
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  color: black; /* 링크의 글자색을 검정색으로 설정 */
+}

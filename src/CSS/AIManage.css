@@ -1,0 +1,52 @@
+.AIManage{
+    color: #00C497;
+}
+
+.AItitle{
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 12vw;
+    color: #00C497;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+
+.rectangle-ai {
+    width: 75vw;
+    height: 77vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 25vw;
+    margin-top: -48vh; 
+  }
+
+.aitext{
+    position: absolute;
+    margin-top: 31vh;
+    margin-left: -2vw;
+    font-family: 'paybooc Medium';
+    font-size: 1.9vw;
+}
+
+.img-re2{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: -45vh;
+    margin-left: 25vw;
+}
+
+.listname-hi, .small-box-hi {
+    width: 30vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  
+  .listname-hi span, .small-box-hi span {
+    flex: 1;
+    text-align: center;
+  }

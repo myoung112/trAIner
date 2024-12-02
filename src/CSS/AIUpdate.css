@@ -1,0 +1,41 @@
+.rectangle-a {
+    width: 75vw;
+    height: 77vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 5vw;
+    margin-top: -3vh;
+  }
+
+
+.AIuptitle{
+    position: absolute;
+    margin-top: 13vh;
+    margin-left: 0vw;
+    color: #00C497;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+.img-upload{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 24vh;
+    margin-left: 5vw;
+}
+
+.img-version{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 24vh;
+    margin-left: 28vw;
+}
+
+.img-change{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 24vh;
+    margin-left: 51vw;
+}

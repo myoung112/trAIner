@@ -1,0 +1,37 @@
+.MemberManagement{
+    color: #00C497;
+}
+
+.rectangle-member {
+    width: 60vw;
+    height: 77vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 15vw;
+    margin-top: -48vh; 
+  }
+
+.membertitle{
+    position: absolute;
+    margin-top: 7vh;
+    margin-left: 8vw;
+    color: #00C497;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+.img-li{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: -50vh;
+    margin-left: -15vw;
+}
+
+.img-re{
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    margin-top: -50vh;
+    margin-left: 11vw;
+
+}

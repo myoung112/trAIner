@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "ProstoOne-Regular";
+    font-weight: normal;
+    src: url("../font/ProstoOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "paybooc Light";
+    font-weight: normal;
+    src: url("../font/paybooc Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "paybooc Medium";
+    font-weight: normal;
+    src: url("../font/paybooc Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Abel-Regular";
+    font-weight: normal;
+    src: url("../font/Abel-Regular.ttf") format("truetype");
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-2 {
+    background-image: url('../../public/image/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+    align-items: center;
+    margin-top: 0vh;
+}
+
+@media (max-width: 991px) {
+    .div-2 {
+        max-width: 100%;
+    }
+}
+
+.div-3 {
+    position: relative;
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .div-3 {
+        max-width: 100%;
+    }
+}
+
+.title {
+    color: #00C497;
+    text-align: center;
+    margin-top: 3.5vh;
+    font: 700 6vw ProstoOne-Regular, sans-serif;
+}
+
+.title2 {
+    color: #000000;
+    text-align: center;
+    margin-top: 0.5vh;
+    font: 700 2vw ProstoOne-Regular, sans-serif;
+}
+
+.text1 {
+    color: #000000;
+    font-family: 'paybooc Medium';
+    text-align: center;
+    font-size: 1.8vw;
+    margin-top: 8vh;
+}
+
+.input-id {
+    position:absolute;
+    color: #000000;
+    font-family: 'Abel-Regular';
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 6vh;
+    margin-left: 0vw;
+}
+
+.input-box-login {
+    width: 20vw !important;
+    height: 4vh !important;
+    margin-top: 5vh !important;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    background-color: transparent !important;
+    padding: 0.5vw !important;
+    font-size: 1.5vw !important;
+    margin-left: 6vw !important;
+    font-family: 'paybooc Medium' !important;
+    border-radius: 0 !important;
+}
+
+.input-box2-login {
+    width: 20vw;
+    height: 4vh;
+    border: none; 
+    border-bottom: 1px solid #000; 
+    background-color: transparent; 
+    padding: 0.5vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vh;
+    margin-left: 6vw;
+    margin-top: 4vh;
+    font-family: 'paybooc Medium';
+}
+
+.input-pw {
+    position: absolute;
+    color: #000000;
+    font-family: 'Abel-Regular';
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: 5vh;
+    margin-left: -2.5vw;
+}
+
+.login {
+    color: #000000;
+    font-family: 'ProstoOne-Regular';
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 5vh;
+    margin-left:0.5vw;
+    margin-bottom: 2vh;
+    background-color: transparent;
+    border: none; 
+}
+
+.login-link {
+    color: black;
+    text-decoration: none;
+  }
+
+@media (max-width: 991px) {
+    .img-3 {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.error{
+    color: rgb(255, 79, 79);
+    font-family: 'paybooc Medium';
+    font-size: 1.2vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+
+}

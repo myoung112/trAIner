@@ -1,0 +1,22 @@
+.versiontext{
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+  }
+  
+  .delete-button {
+    width: 4vw;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-family: 'paybooc Medium';
+    font-size: 1.1vw;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #00c497;
+  }

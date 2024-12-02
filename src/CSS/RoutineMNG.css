@@ -1,0 +1,86 @@
+.routinetitle{
+    position: absolute;
+    margin-top: 7vh;
+    margin-left: 10vw;
+    color: #00C497;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+.RoutineManagement{
+    color: #00c497;
+}
+
+.big-box-rt {
+    width: 65vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(249, 249, 249, 0.6);
+    max-height: 72vh; 
+    overflow-y: auto;
+    margin-left: 20vw;
+    margin-top: -52vh;
+  }
+
+  .listname-rt{
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4%;
+    display: grid;
+    grid-template-columns: 15% 17% 25% 33%;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    
+  }
+  
+  .small-box-rt {
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4.5vw;
+    margin-bottom: 5vh;
+    display: grid;
+  grid-template-columns: 16% 14% 24% 42%; 
+  
+  }
+
+  .rt-link {
+    text-decoration: none; 
+    color: black;
+  }
+
+  .search-box-rt {
+    font-family: 'paybooc Medium';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .search-box-rt input {
+    font-family: 'paybooc Medium';
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 20vw;
+  }
+  
+  .search-box-rt button {
+    font-family: 'paybooc Medium';
+    width: 6vw;
+    height: 5.5vh;
+    padding: 0px 0px;
+    font-size: 16px;
+    color: #000;
+    background-color: #e4e4e4;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .search-box-rt button:hover {
+    background-color: #00C497;
+  }
+  

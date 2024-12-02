@@ -1,0 +1,17 @@
+.change-button {
+    width: 7vw;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-family: 'paybooc Medium';
+    font-size: 1.1vw;
+    cursor: pointer;
+    margin-top: 10vh;
+    margin-left: 33vw;
+  }
+  
+  .change-button:hover {
+    background-color: #00c497;
+  }

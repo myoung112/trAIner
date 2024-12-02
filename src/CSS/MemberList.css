@@ -1,0 +1,78 @@
+.arrow{
+    width: 3vw;
+    height: 6vh;
+    margin-top: 8vh;
+    margin-left: -45vw;
+}
+
+.smalltitle{
+    color: #00C497;
+    margin-top: -15vh;
+    font-family: 'paybooc Medium';
+    font-size: 2vw;
+}
+
+.big-box {
+    width: 58vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(249, 249, 249, 0.6);
+    max-height: 72vh; 
+    overflow-y: auto;
+    margin-top: 5vh;
+  }
+
+  .listname{
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4%;
+    display: grid;
+    grid-template-columns: 17% 20% 20% 25% 15%;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    
+  }
+  
+  .small-box {
+    font-family: 'paybooc Medium';
+    font-size: 1.5vw;
+    padding-left: 4vw;
+    margin-bottom: 5vh;
+    display: grid;
+  grid-template-columns: 13% 20% 28% 25% 10%; /* 필요에 따라 퍼센트 조정 */
+  
+  }
+  .listname > span,
+  .small-box > span {
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  select {
+    font-family: 'paybooc Medium';
+    padding: 8px 5px;
+    font-size: 1.2vw; 
+    border: 0.3px solid #000; 
+    background-color: #fff; 
+    color: #000;
+    margin-left: 49.5vw;
+    margin-bottom: 1vw;
+  }
+  
+  select option {
+    background-color: #fff; 
+    color: #333;
+  }
+  
+  
+  select::-ms-expand {
+    display: none; 
+  }
+
+  .member-link {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: black; /* 링크의 글자색을 검정색으로 설정 */
+  }

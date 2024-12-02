@@ -1,0 +1,37 @@
+
+.detailtext-hi{
+
+    margin-top: 10vh;
+    margin-left: -52vw;
+    font-family: 'paybooc Medium';
+    font-size: 1.7vw;
+    
+  }
+  
+  .detail-table-hi {
+    border-collapse: collapse;
+    margin-top: 7vh;
+    width: 60%;
+    height: 45vh;
+    background-color: #d9d9d9;
+    font-family: 'paybooc Medium';
+    font-size: 1.3vw;
+    text-align: center;
+  }
+  
+  .detail-table-hi td, .detail-table-hi th {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+  }
+  
+  .detail-table-hi th {
+    text-align: left; 
+  }
+  
+  .detail-table-hi tr td:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .detail-table-hi tr td:nth-child(odd) {
+    width: 10vw; 
+  }
